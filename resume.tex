@@ -1,0 +1,181 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{2pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-1pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{\huge Yash Khare} \\ 
+  {(+91) 6397812260} | \href{mailto:yashsha@gmail.com}{yashsja@gmail.com} | \href{https://yashk2000.github.io}{yashk2000.github.io} \\
+  \href{https://www.linkedin.com/in/yash-khare-b2385a178/}{linkedin.com/in/yash-khare-b2385a178/} | \href{https://github.com/yashk2000}{github.com/yashk2000} | \href{https://twitter.com/_p0lar_bear}{twitter.com/\_p0lar\_bear} \\
+
+ 
+\end{center}
+
+
+%-----------SUMMARY-----------------
+\shorterSection{Summary}
+\small A proactive and fast learning individual seeking an opportunity to work as a dynamic software engineer utilizing my analytical \& methodical skills and relevant expertise to help the company achieve business goals while sticking to vision, mission and values.
+\vspace{3pt}
+
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+ \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Amrita Vishwa Vidyapeetham}{Amritapuri, Kollam, India.}
+      {Bachelors of Technology in Computer Science;  GPA: 9.32/10.0}{Expected May 2022}{}
+
+    \resumeSubheading
+      {St.Joseph's Academy}{Dehradun, Uttarakhnd, India.}
+      {Higher Secondary;  Marks: 94.25\%}{May 2018}{}
+      
+    \resumeSubheading
+      {St.Joseph's Academy}{Dehradun, Uttarakhand, India.}
+      {Secondary; Marks: 92.2\%}{May 2016}{}
+
+  \resumeSubHeadingListEnd
+  
+  
+%-----------EXPERIENCE-----------------
+\shorterSection{Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Defence Research and Development Organization(DRDO)}{Dehradun, India}
+      {Intern}{November 2019 - December 2019}
+      \vspace{-1pt}
+      
+      I interned at IRDE, a DRDO establishment. During the internship, my work involved digital image processing,computer vision and automatic target detection using background differencing, frame differencing, difference fusion and ViBe.
+
+
+    \resumeSubheading
+      {GitHub}{}
+      {GitHub Campus Expert}{August 2019 - Present}
+
+      As GitHub Campus Expert, I am trained to build a strong technical community. I organize several workshops and take sessions in them with support from GitHub.
+      
+    \resumeSubheading
+      {FOSSASIA}{}{Intern}{May 2019 - August 2019}
+      
+      I overhauled cloud deployment of 2 applications, resulting in reduced run time performance by 30\%. I helped in developing the hardware simulation, Badge Magic Android, of a LED name badge, by passing the 2D array into a filter of animation specific algorithm. I also worked on Phimp.me Android application, a photo editing tool. For both of these apps, I automated PlayStore and F-droid deployment process and also improved the build time by 5 minutes using Fastlane tool, bash scripting, and continuous integration.
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------ACADEMIC PROJECTS AND INTERNSHIPS-----------------
+\shorterSection{Projects}
+  \resumeSubHeadingListStart
+      
+    \resumeSubItem{Tweegenous}{The tool was designed for people who speak indigenous languages Built with Python, JavaScript, HTML, CSS, Bootstrap, along with usage of NLP. It collects tweets related to natural disaster and translates them in the language desired by the user and alerts people instantly if there is a natural calamity or any disaster headed their way by translating tweets. It is a two way system, for both the authorities and people.}    
+
+    \resumeSubItem{Image Processing}{This repository contains a projects I did in the field of computer vision with python, openCV and keras. It includes projects like emotion recognizer, smile detector, OMR Sheet scanner, panorama image stitcher etc.}    
+    
+    \resumeSubItem{Phimpme}{Phimpme is an open source photo editing application designed for android phones. I am one of the top contributors in this project and have fixed several bugs and made several new features. I am also one of the maintainers of
+    this project.}
+	
+    \resumeSubItem{Badge Magic}{Badge-Magic is an android application which is used to control LED Badges. I have been a core contributor to the project and have helped build this project from scratch. I also help maintain this project.}          
+    
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------------
+\shorterSection{Skills}
+  \resumeSubHeadingListStart
+  \small
+    \item{\textbf{Languages}{: Python, Java, Kotlin, C++, C, Bash.}}
+    \vspace{-4pt}
+    \item{\textbf{Skills}{: Android Development, Computer Vision, Problem Solving}}
+    \vspace{-5pt}
+    \item{\textbf{Tools \& Technologies}{: Git, Mercurial, GitHub.}}
+\resumeSubHeadingListEnd
+
+
+
+
+%-----------Addtional Experience & Achievements-----------------
+\shorterSection{Additional Experience \& Achievements}
+  \resumeSubHeadingListStart
+  \small
+    \item{My paper on Infrared Image Enhancement using Convolution Matrices got selected to be presented in the International Conference on Optics and Electro-Optics 2019(ICOL 2019) held at Instruments Research and Development Establishment, a premier DRDO establishment working in the field of Electro-optics}
+    \vspace{-5pt}
+    \item{Won 2nd prize in IBM-Cloud Category in FOSSASIA UNESCO Hackathon held in Singapore.}
+    \vspace{-5pt}    
+	\item{Got selected to attend the Undergraduate Summer School held at Indian Institute of Science, Bengaluru and was the only sophomore selected out of the 90 students selected all over India.}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
